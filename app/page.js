@@ -31,6 +31,7 @@ export default function HomePage() {
           </button>
         </div>
       </div>
+
       <div className="text-center my-[8rem]">
         <div className="flex flex-col items-center">
           <span className="py-3 text-2xl font-bold text-[#191919]">
@@ -43,6 +44,16 @@ export default function HomePage() {
             Get Started
           </button>
         </div>
+      </div>
+
+      <div className="flex justify-center items-center">
+        <Image
+          className="rounded-xl image-shadow border border-[#cbcdd1]"
+          src="/app_board_view.png"
+          alt="taskboard app board view"
+          width={480 * 2}
+          height={270 * 2}
+        />
       </div>
     </div>
   );
