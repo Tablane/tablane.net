@@ -13,10 +13,18 @@ export default function HomePage() {
             height={42}
           />
           <div>
-            <span>Features</span>
-            <span>Templates</span>
-            <span>Integrations</span>
-            <span>Enterprise</span>
+            <span className="cursor-pointer text-sm text-[#666] hover:text-black p-2 mx-[6px]">
+              Features
+            </span>
+            <span className="cursor-pointer text-sm text-[#666] hover:text-black p-2 mx-[6px]">
+              Templates
+            </span>
+            <span className="cursor-pointer text-sm text-[#666] hover:text-black p-2 mx-[6px]">
+              Integrations
+            </span>
+            <span className="cursor-pointer text-sm text-[#666] hover:text-black p-2 mx-[6px]">
+              Enterprise
+            </span>
           </div>
           <button className="h-[32px] p-2 bg-black rounded-[5px] border-black border-solid border text-sm leading-3 text-white hover:bg-white hover:text-black transition">
             Open App
