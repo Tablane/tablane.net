@@ -1,16 +1,19 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function NavBar() {
   return (
     <div className="h-[64px] flex sticky top-0 backdrop-blur-sm backdrop-saturate-200">
       <div className="w-[1048px] m-auto flex justify-between px-[24px] items-center">
-        <Image
-          className="p-2 cursor-pointer"
-          src="/android-chrome-192x192.png"
-          alt="logo"
-          width={42}
-          height={42}
-        />
+        <Link href="/">
+          <Image
+            className="p-2 cursor-pointer"
+            src="/android-chrome-192x192.png"
+            alt="logo"
+            width={42}
+            height={42}
+          />
+        </Link>
         <div>
           <span className="cursor-pointer text-sm text-[#666] hover:text-black p-2 mx-[6px]">
             Features
