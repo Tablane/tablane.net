@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import NavMenu from "./NavMenu";
 
 export default function NavBar() {
   return (
@@ -14,7 +15,8 @@ export default function NavBar() {
             height={42}
           />
         </Link>
-        <div>
+
+        <div className="hidden md:block">
           <span className="cursor-pointer text-sm text-[#666] hover:text-black p-2 mx-[6px]">
             Features
           </span>
@@ -28,9 +30,11 @@ export default function NavBar() {
             Enterprise
           </span>
         </div>
-        <button className="h-[32px] p-2 bg-black rounded-[5px] border-black border-solid border text-sm leading-3 text-white hover:bg-white hover:text-black transition">
+        <button className="hidden md:block h-[32px] p-2 bg-black rounded-[5px] border-black border-solid border text-sm leading-3 text-white hover:bg-white hover:text-black transition">
           Open App
         </button>
+
+        <NavMenu />
       </div>
     </div>
   );
