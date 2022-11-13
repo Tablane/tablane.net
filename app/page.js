@@ -1,5 +1,6 @@
 import HeroSection from "./(components)/HeroSection";
 import ProductView from "./(components)/ProductView";
+import Features from "./(components)/Features";
 
 export default function HomePage() {
   return (
@@ -7,6 +8,8 @@ export default function HomePage() {
       <HeroSection />
 
       <ProductView />
+
+      <Features />
     </div>
   );
 }
