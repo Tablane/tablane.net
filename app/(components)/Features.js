@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function Features() {
   return (
     <div className="text-center flex flex-col justify-center items-center">
-      <div className="h-[400px] flex flex-row justify-center my-[150px] items-center w-[900px]">
-        <div className="mr-[120px] text-left">
+      <div className="h-[400px] flex flex-col lg:flex-ro justify-center my-[150px] items-center lg:w-[900px]">
+        <div className="mr-[120px] text-left my-[50px]">
           <p className="text-[24px] font-bold">Subtasks</p>
           <p className="text-[#666]">
             Break larger tasks into smaller subtasks.
@@ -20,7 +20,8 @@ export default function Features() {
           />
         </div>
       </div>
-      <div className="h-[400px] flex flex-row justify-between my-[150px] items-center w-[900px]">
+
+      <div className="h-[400px] flex flex-row justify-between my-[150px] items-center lg:w-[900px]">
         <div>
           <Image
             className="rounded-xl image-shadow border border-[#cbcdd1]"
@@ -30,15 +31,16 @@ export default function Features() {
             height={325}
           />
         </div>
-        <div className="ml-[120px] text-left">
+        <div className="ml-[120px] text-left my-[50px]">
           <p className="text-[24px] font-bold">Todos with Superpowers</p>
           <p className="text-[#666]">
             Customizable to tackle any project or task.
           </p>
         </div>
       </div>
-      <div className="h-[400px] flex flex-row justify-center my-[150px] items-center w-[900px]">
-        <div className="mr-[120px] text-left">
+
+      <div className="h-[400px] flex flex-col lg:flex-ro justify-center my-[150px] items-center lg:w-[900px]">
+        <div className="mr-[120px] text-left my-[50px]">
           <p className="text-[24px] font-bold">Comment Threads</p>
           <p className="text-[#666]">
             Collaborate on tasks without losing context.
@@ -55,7 +57,7 @@ export default function Features() {
         </div>
       </div>
 
-      <div className="flex justify-around w-[900px] mt-[128px] mb-[256px]">
+      <div className="flex justify-around lg:w-[900px] mt-[128px] mb-[128px]">
         <div className="max-w-[300px] flex flex-col justify-center items-center">
           <Image src="/assets/bolt.svg" alt="bolt" width={24} height={24} />
           <p className="font-medium pb-3 pt-4">Breathtakingly fast</p>

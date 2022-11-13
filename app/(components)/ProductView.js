@@ -8,6 +8,7 @@ export default function ProductView() {
         className="rounded-xl product-shadow border border-[#cbcdd1]"
         src={app_board_view}
         alt="taskboard app board view"
+        priority
       />
     </div>
   );
