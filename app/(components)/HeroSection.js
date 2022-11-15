@@ -1,6 +1,6 @@
 export default function HeroSection() {
   return (
-    <div className="text-center my-[8rem]">
+    <div className="text-center mt-[8rem]">
       <div className="flex flex-col items-center">
         <span className="py-3 text-[4vw] sm:text-2xl font-bold text-[#191919]">
           Next Generation
