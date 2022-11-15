@@ -8,6 +8,7 @@ const container = {
   show: {
     opacity: 1,
     transition: {
+      delay: 0.1,
       staggerChildren: 0.08,
     },
   },
@@ -38,7 +39,7 @@ export default function Features() {
         variants={container}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: true, margin: "-50%" }}
+        viewport={{ once: true, margin: "-20%" }}
         className="md:h-[400px] flex flex-col lg:flex-row justify-center mt-[100px] md:my-[150px] items-center lg:w-[900px] px-[25px] sm:px-0"
       >
         <div className="sm:mr-[120px] text-left my-[50px]">
@@ -64,7 +65,7 @@ export default function Features() {
         variants={container}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: true, margin: "-50%" }}
+        viewport={{ once: true, margin: "-20%" }}
         className="md:h-[400px] flex flex-col-reverse md:flex-row justify-between mt-[100px] md:my-[150px] items-center lg:w-[900px] px-[25px] sm:px-0"
       >
         <div>
@@ -90,7 +91,7 @@ export default function Features() {
         variants={container}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: true, margin: "-50%" }}
+        viewport={{ once: true, margin: "-20%" }}
         className="md:h-[400px] flex flex-col lg:flex-row justify-center mt-[100px] md:my-[150px] items-center lg:w-[900px] px-[25px] sm:px-0"
       >
         <div className="sm:mr-[120px] text-left my-[50px]">
