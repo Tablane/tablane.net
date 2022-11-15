@@ -4,6 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const container = {
+  hidden: { opacity: 0 },
   show: {
     opacity: 1,
     transition: {
@@ -26,16 +27,8 @@ const itemLeft = {
 };
 
 const itemRight = {
+  ...itemLeft,
   hidden: { opacity: 0, x: 35 },
-  show: {
-    opacity: 1,
-    x: 0,
-    transition: {
-      duration: 0.6,
-      ease: [0.16, 1, 0.3, 1],
-      staggerChildren: 0.08,
-    },
-  },
 };
 
 export default function Features() {
@@ -45,24 +38,14 @@ export default function Features() {
         variants={container}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, margin: "-30%" }}
+        viewport={{ once: true, margin: "-50%" }}
         className="md:h-[400px] flex flex-col lg:flex-row justify-center mt-[100px] md:my-[150px] items-center lg:w-[900px] px-[25px] sm:px-0"
       >
         <div className="sm:mr-[120px] text-left my-[50px]">
-          <motion.p
-            variants={itemLeft}
-            viewport={{ once: false, margin: "-20%" }}
-            transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-            className="text-[24px] font-bold"
-          >
+          <motion.p variants={itemLeft} className="text-[24px] font-bold">
             Subtasks
           </motion.p>
-          <motion.p
-            variants={itemLeft}
-            viewport={{ once: false, margin: "-20%" }}
-            transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-            className="text-[#666]"
-          >
+          <motion.p variants={itemLeft} className="text-[#666]">
             Break larger tasks into smaller subtasks.
           </motion.p>
         </div>
@@ -81,7 +64,7 @@ export default function Features() {
         variants={container}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, margin: "-30%" }}
+        viewport={{ once: true, margin: "-50%" }}
         className="md:h-[400px] flex flex-col-reverse md:flex-row justify-between mt-[100px] md:my-[150px] items-center lg:w-[900px] px-[25px] sm:px-0"
       >
         <div>
@@ -94,20 +77,10 @@ export default function Features() {
           />
         </div>
         <div className="sm:ml-[120px] text-left my-[50px]">
-          <motion.p
-            variants={itemRight}
-            viewport={{ once: false, margin: "-20%" }}
-            transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-            className="text-[24px] font-bold"
-          >
+          <motion.p variants={itemRight} className="text-[24px] font-bold">
             Todos with Superpowers
           </motion.p>
-          <motion.p
-            variants={itemRight}
-            viewport={{ once: false, margin: "-20%" }}
-            transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-            className="text-[#666]"
-          >
+          <motion.p variants={itemRight} className="text-[#666]">
             Customizable to tackle any project or task.
           </motion.p>
         </div>
@@ -117,24 +90,14 @@ export default function Features() {
         variants={container}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, margin: "-30%" }}
+        viewport={{ once: true, margin: "-50%" }}
         className="md:h-[400px] flex flex-col lg:flex-row justify-center mt-[100px] md:my-[150px] items-center lg:w-[900px] px-[25px] sm:px-0"
       >
         <div className="sm:mr-[120px] text-left my-[50px]">
-          <motion.p
-            variants={itemLeft}
-            viewport={{ once: false, margin: "-20%" }}
-            transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-            className="text-[24px] font-bold"
-          >
+          <motion.p variants={itemLeft} className="text-[24px] font-bold">
             Comment Threads
           </motion.p>
-          <motion.p
-            variants={itemLeft}
-            viewport={{ once: false, margin: "-20%" }}
-            transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
-            className="text-[#666]"
-          >
+          <motion.p variants={itemLeft} className="text-[#666]">
             Collaborate on tasks without losing context.
           </motion.p>
         </div>
