@@ -1,10 +1,24 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import NavMenu from "./NavMenu";
+import { useEffect, useState } from "react";
 
 export default function NavBar() {
+  const [attop, setAtTop] = useState(true);
+
+  useEffect(() => {
+    document.addEventListener("scroll", () => {
+      setAtTop(window.scrollY <= 1);
+    });
+  }, []);
+
   return (
-    <div className="h-[64px] flex sticky top-0 backdrop-blur-sm backdrop-saturate-200 bg-white bg-opacity-40">
+    <div
+      style={{ borderColor: attop ? "transparent" : "#E5E5E5" }}
+      className="header h-[64px] flex sticky top-0 backdrop-blur-sm backdrop-saturate-200 bg-white bg-opacity-40 border-b"
+    >
       <div className="w-[1048px] m-auto flex justify-between px-[24px] items-center">
         <Link href="/">
           <Image
