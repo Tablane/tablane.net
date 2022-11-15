@@ -44,9 +44,11 @@ export default function NavBar() {
             Enterprise
           </span>
         </div>
-        <button className="hidden md:block h-[32px] p-2 bg-black rounded-[5px] border-black border-solid border text-sm leading-3 text-white hover:bg-white hover:text-black transition">
-          Open App
-        </button>
+        <Link href={process.env.NEXT_PUBLIC_FRONTEND_HOST}>
+          <div className="hidden md:block h-[32px] p-2 bg-black rounded-[5px] border-black border-solid border text-sm leading-3 text-white hover:bg-white hover:text-black transition">
+            Open App
+          </div>
+        </Link>
 
         <NavMenu />
       </div>

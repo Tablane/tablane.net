@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const container = {
   hidden: {},
@@ -55,9 +56,11 @@ export default function HeroSection() {
           Productivity
         </motion.span>
         <motion.div variants={button}>
-          <button className="mt-[64px] font-normal h-[50px] w-[200px] p-2 bg-black rounded-[5px] border-black border-solid border leading-3 text-white hover:bg-white hover:text-black transition">
-            Get Started
-          </button>
+          <Link href={process.env.NEXT_PUBLIC_FRONTEND_HOST}>
+            <button className="mt-[64px] font-normal h-[50px] w-[200px] p-2 bg-black rounded-[5px] border-black border-solid border leading-3 text-white hover:bg-white hover:text-black transition">
+              Get Started
+            </button>
+          </Link>
         </motion.div>
       </motion.div>
     </div>
