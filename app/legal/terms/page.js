@@ -714,7 +714,7 @@ export default function Terms() {
           ANY RESPONSIBILITY OR LIABILITY TO ANY PERSON OR ENTITY FOR ANY LOSS,
           DAMAGE (WHETHER ACTUAL, CONSEQUENTIAL, PUNITIVE OR OTHERWISE), INJURY,
           CLAIM, LIABILITY, OR OTHER CAUSE OF ANY KIND OR CHARACTER BASED UPON
-          OR RESULTING FROM ANY CONTENT.{" "}
+          OR RESULTING FROM ANY CONTENT.
         </p>
 
         <h2 className="font-bold my-5 text-lg">License Limitations</h2>
@@ -838,16 +838,16 @@ export default function Terms() {
           limitation, reasonable attorney's fees and costs, arising out of or in
           any way connected with any of the following (including as a result of
           your direct activities on the Service or those conducted on your
-          behalf):{" "}
+          behalf):
         </p>
 
         <ul>
           <li>
             <p className="mb-5">
-              (i) your Content or your access to or use of the Service;{" "}
+              (i) your Content or your access to or use of the Service;
             </p>
             <p className="mb-5">
-              (ii) your breach or alleged breach of these Terms;{" "}
+              (ii) your breach or alleged breach of these Terms;
             </p>
             <p className="mb-5">
               (iii) your violation of any third-party right, including without
@@ -858,7 +858,7 @@ export default function Terms() {
               (iv) your violation of any laws, rules, regulations, codes,
               statutes, ordinances, or orders of any governmental and
               quasi-governmental authorities, including, without limitation, all
-              regulatory, administrative and legislative authorities; or{" "}
+              regulatory, administrative and legislative authorities; or
             </p>
             <p className="mb-5">(v) any misrepresentation made by you. </p>
           </li>
@@ -870,7 +870,7 @@ export default function Terms() {
           control of any matter subject to indemnification by you, and you will
           not in any event settle any claim without our prior written consent.
           Notwithstanding the foregoing, you agree that the cost of any such
-          defense will be at your sole and exclusive expense.{" "}
+          defense will be at your sole and exclusive expense.
         </p>
 
         <h2 className="font-bold my-5 text-lg">Arbitration</h2>
@@ -931,7 +931,7 @@ export default function Terms() {
         <p className="mb-5">
           You agree that any claim you may have arising out of or related to
           your relationship with us must be filed within one year after such
-          claim arose; otherwise, your claim is permanently barred.{" "}
+          claim arose; otherwise, your claim is permanently barred.
         </p>
 
         <h2 className="font-bold my-5 text-lg">Governing Law &amp; Venue</h2>
@@ -987,7 +987,7 @@ export default function Terms() {
           consent and the Terms will inure to the benefit of and be enforceable
           by our successor. Neither the course of conduct between the parties
           nor trade practice will act to modify the Terms. These Terms do not
-          confer any third-party beneficiary rights.{" "}
+          confer any third-party beneficiary rights.
         </p>
 
         <h2 className="font-bold my-5 text-lg">Territorial Restrictions</h2>
@@ -1019,7 +1019,7 @@ export default function Terms() {
         <p className="mb-5">
           These Terms of Use were written in English (US). To the extent any
           translated version of these Terms of Use conflicts with the English
-          version, the English version controls.{" "}
+          version, the English version controls.
         </p>
       </div>
     </Legal>
