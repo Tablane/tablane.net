@@ -5,7 +5,7 @@ export default function Footer() {
     <div className="flex flex-row sm:h-[120px] justify-center">
       <div className="w-[1048px] h-full flex justify-between items-center flex-col-reverse sm:flex-row text-sm">
         <div className="mx-8 text-sm text-[#666] my-[50px] sm:my-0">
-          © 2022 TaskBoard
+          © 2022 Tablane
         </div>
         <div className="mx-8 flex flex-col sm:flex-row w-full sm:w-auto px-[50px] sm:px-0">
           <Link
