@@ -7,6 +7,10 @@ import Link from "next/link";
 export default function NavMenu() {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
+  const closeNav = () => {
+    setNavbarOpen(false);
+  };
+
   return (
     <>
       <div className="flex flex-row md:hidden items-center">
@@ -34,12 +38,12 @@ export default function NavMenu() {
             : "top-[80px] invisible"
         }`}
       >
-        <Link href="/">
+        <Link href="/" onClick={closeNav}>
           <div className="h-[48px] text-[16px] flex items-center border-b border-[#EAEAEA] hover:bg-[#FAFAFA] cursor-pointer">
             Overview
           </div>
         </Link>
-        <Link href="/contact">
+        <Link href="/contact" onClick={closeNav}>
           <div className="h-[48px] text-[16px] flex items-center border-b border-[#EAEAEA] hover:bg-[#FAFAFA] cursor-pointer">
             Contact
           </div>
