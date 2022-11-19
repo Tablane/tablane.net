@@ -3,10 +3,10 @@ import Image from "next/image";
 
 export default function Contact() {
   return (
-    <div className="bg-[#FAFAFA] py-[100px]">
+    <div className="bg-[#FAFAFA] py-[100px] h-full">
       <div className="text-center">
-        <h1 className="font-bold text-[64px]">We are here to help</h1>
-        <span className="text-[20px]">
+        <h1 className="font-bold text-[64px] mb-4">We are here to help</h1>
+        <span className="text-[20px] text-[#666]">
           Please don’t hesitate to get in touch with us if you have a query or
           want to give some feedback.
         </span>
