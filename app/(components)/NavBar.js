@@ -31,18 +31,21 @@ export default function NavBar() {
         </Link>
 
         <div className="hidden md:block">
-          <span className="cursor-pointer text-sm text-[#666] hover:text-black p-2 mx-[6px]">
-            Features
-          </span>
-          <span className="cursor-pointer text-sm text-[#666] hover:text-black p-2 mx-[6px]">
-            Templates
-          </span>
-          <span className="cursor-pointer text-sm text-[#666] hover:text-black p-2 mx-[6px]">
-            Integrations
-          </span>
-          <span className="cursor-pointer text-sm text-[#666] hover:text-black p-2 mx-[6px]">
-            Enterprise
-          </span>
+          <Link href="/">
+            <span className="cursor-pointer text-sm text-[#666] hover:text-black p-2 mx-[6px]">
+              Overview
+            </span>
+          </Link>
+          <Link href="/contact">
+            <span className="cursor-pointer text-sm text-[#666] hover:text-black p-2 mx-[6px]">
+              Contact
+            </span>
+          </Link>
+          <Link href="https://app.tablane.net/shared/board/6378add15219ad70aebe7fc8">
+            <span className="cursor-pointer text-sm text-[#666] hover:text-black p-2 mx-[6px]">
+              Roadmap
+            </span>
+          </Link>
         </div>
         <Link href={process.env.NEXT_PUBLIC_FRONTEND_HOST}>
           <div className="hidden md:block h-[32px] p-2 bg-black rounded-[5px] border-black border-solid border text-sm leading-3 text-white hover:bg-white hover:text-black transition">

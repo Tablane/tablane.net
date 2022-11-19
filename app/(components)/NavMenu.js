@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
+import Link from "next/link";
 
 export default function NavMenu() {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -32,18 +33,21 @@ export default function NavMenu() {
             : "top-[80px] invisible"
         }`}
       >
-        <div className="h-[48px] text-[16px] flex items-center border-b border-[#EAEAEA] hover:bg-[#FAFAFA] cursor-pointer">
-          <span>Features</span>
-        </div>
-        <div className="h-[48px] text-[16px] flex items-center border-b border-[#EAEAEA] hover:bg-[#FAFAFA] cursor-pointer">
-          <span>Templates</span>
-        </div>
-        <div className="h-[48px] text-[16px] flex items-center border-b border-[#EAEAEA] hover:bg-[#FAFAFA] cursor-pointer">
-          <span>Integrations</span>
-        </div>
-        <div className="h-[48px] text-[16px] flex items-center border-b border-[#EAEAEA] hover:bg-[#FAFAFA] cursor-pointer">
-          <span>Enterprise</span>
-        </div>
+        <Link href="/">
+          <div className="h-[48px] text-[16px] flex items-center border-b border-[#EAEAEA] hover:bg-[#FAFAFA] cursor-pointer">
+            Overview
+          </div>
+        </Link>
+        <Link href="/contact">
+          <div className="h-[48px] text-[16px] flex items-center border-b border-[#EAEAEA] hover:bg-[#FAFAFA] cursor-pointer">
+            Contact
+          </div>
+        </Link>
+        <Link href="https://app.tablane.net/shared/board/6378add15219ad70aebe7fc8">
+          <div className="h-[48px] text-[16px] flex items-center border-b border-[#EAEAEA] hover:bg-[#FAFAFA] cursor-pointer">
+            Roadmap
+          </div>
+        </Link>
       </div>
     </>
   );
