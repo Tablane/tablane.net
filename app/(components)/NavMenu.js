@@ -14,11 +14,11 @@ export default function NavMenu() {
   return (
     <>
       <div className="flex flex-row md:hidden items-center">
-        <div className="mr-6">
-          <button className="block h-[32px] p-2 bg-black rounded-[5px] border-black border-solid border text-sm leading-3 text-white hover:bg-white hover:text-black transition">
+        <Link href={process.env.NEXT_PUBLIC_FRONTEND_HOST} className="mr-6">
+          <div className="block h-[32px] p-2 bg-black rounded-[5px] border-black border-solid border text-sm leading-3 text-white hover:bg-white hover:text-black transition">
             Open App
-          </button>
-        </div>
+          </div>
+        </Link>
         <div
           className="h-[42px] w-[42px] flex justify-center items-center cursor-pointer"
           onClick={() => setNavbarOpen(!navbarOpen)}
