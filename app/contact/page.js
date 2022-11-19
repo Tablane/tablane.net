@@ -3,15 +3,17 @@ import Image from "next/image";
 
 export default function Contact() {
   return (
-    <div className="bg-[#FAFAFA] py-[100px] h-full">
-      <div className="text-center">
-        <h1 className="font-bold text-[64px] mb-4">We are here to help</h1>
-        <span className="text-[20px] text-[#666]">
+    <div className="bg-[#FAFAFA] py-[100px]">
+      <div className="text-center px-8">
+        <h1 className="font-bold text-[36px] md:text-[64px] mb-4">
+          We are here to help
+        </h1>
+        <span className="text-[18px] md:text-[20px] text-[#666]">
           Please don’t hesitate to get in touch with us if you have a query or
           want to give some feedback.
         </span>
       </div>
-      <div className="p-6 pt-14 flex flex-row justify-center items-center gap-8">
+      <div className="p-6 pt-14 flex flex-col md:flex-row justify-center items-center gap-12">
         <div className="w-[300px] h-[400px] bg-white contact-card-shadow rounded flex flex-col justify-between items-center p-6 pt-12">
           <span className="w-[64px] h-[64px] rounded-full flex justify-center items-center">
             <Image
