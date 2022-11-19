@@ -26,8 +26,9 @@ export default function NavMenu() {
       <div
         style={{
           transition: "all 0.2s cubic-bezier(.17,.27,0,.99)",
+          height: navbarOpen ? "calc(100vh - 64px)" : "calc(100vh - 80px)",
         }}
-        className={`pt-6 absolute h-[calc(100vh_-_64px)] left-0 right-0 opacity-0 px-6 bg-white ${
+        className={`pt-6 absolute left-0 right-0 opacity-0 px-6 bg-white ${
           navbarOpen
             ? "block opacity-100 top-[64px] visible"
             : "top-[80px] invisible"
