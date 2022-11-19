@@ -17,7 +17,7 @@ export default function NavBar() {
   return (
     <div
       style={{ borderColor: attop ? "transparent" : "#E5E5E5" }}
-      className="header h-[64px] flex sticky top-0 backdrop-blur-sm backdrop-saturate-200 bg-white bg-opacity-40 border-b"
+      className="header h-[64px] flex sticky top-0 backdrop-blur-sm backdrop-saturate-200 bg-white bg-opacity-40 border-b z-10"
     >
       <div className="w-[1048px] m-auto flex justify-between px-[24px] items-center">
         <Link href="/">
