@@ -3,7 +3,7 @@ import Legal from "../Legal";
 export default function Terms() {
   return (
     <Legal name="Terms of Service">
-      <div className="pt-[100px]">
+      <div className="pt-[100px] px-8 lg:px-0">
         <p className="mb-5">
           <b>These Terms of Use are effective as of Nov 22, 2022.</b>
         </p>

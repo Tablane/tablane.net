@@ -3,7 +3,7 @@ import Legal from "../Legal";
 export default function PrivacyPolicy() {
   return (
     <Legal name="Privacy Policy">
-      <div className="pt-[100px]">
+      <div className="pt-[100px] px-8 lg:px-0">
         <div className="toc-section">
           <p className="mb-5">
             <i>Effective as of: Nov 22, 2022</i>
