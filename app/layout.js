@@ -6,7 +6,7 @@ export default function RootLayout({ children }) {
   return (
     <html>
       <head />
-      <body>
+      <body className="min-h-[100vh]">
         <NavBar />
         {children}
         <Footer />

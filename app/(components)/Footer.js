@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="flex flex-row sm:h-[120px] justify-center">
+    <div className="flex flex-row sm:h-[120px] justify-center top-[calc(100vh_-_120px)] sticky">
       <div className="w-[1048px] h-full flex justify-between items-center flex-col-reverse sm:flex-row text-sm">
         <div className="mx-8 text-sm text-[#666] my-[50px] sm:my-0">
           © 2022 Tablane
