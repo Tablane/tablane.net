@@ -20,7 +20,7 @@ export default function ProductView() {
         <Image
           className="rounded-xl product-shadow border border-[#cbcdd1]"
           src={app_board_view}
-          alt="taskboard app board view"
+          alt="app board view"
           priority
         />
       </motion.div>
