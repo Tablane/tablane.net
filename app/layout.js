@@ -4,7 +4,7 @@ import Footer from "./(components)/Footer";
 
 export default function RootLayout({ children }) {
   return (
-    <html>
+    <html lang="en">
       <head />
       <body className="min-h-[100vh]">
         <NavBar />
