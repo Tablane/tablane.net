@@ -665,9 +665,9 @@ export default function Terms() {
 
         <p className="mb-5">
           Our Copyright Agent for Notice of claims of copyright infringement on
-          the Site is Chase Neely, who can be reached as follows:
-          <a href="mailto:platform@tablane.net" className="ml-2">
-            platform@tablane.net
+          the Site can be reached as follows:
+          <a href="mailto:dmca@tablane.net" className="ml-2">
+            dmca@tablane.net
           </a>
         </p>
 
