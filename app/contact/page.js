@@ -25,9 +25,12 @@ export default function Contact() {
           </span>
           <span className="text-[32px] font-bold">Discord</span>
           <span className="">Contact us through discord.</span>
-          <button className="h-12 w-full bg-[#5865F2] rounded text-white">
-            Join
-          </button>
+          <Link
+            href="https://discord.com/invite/YpfCs7Xt2r"
+            className="h-12 w-full bg-[#5865F2] rounded text-white flex justify-center items-center"
+          >
+            <span>Join</span>
+          </Link>
         </div>
         <div className="w-[300px] h-[400px] bg-white contact-card-shadow rounded flex flex-col justify-between items-center p-6 pt-12">
           <span className="w-[64px] h-[64px] rounded-full flex justify-center items-center">
