@@ -24,7 +24,7 @@ export default function CookieBanner() {
 
   if (!show) return <></>;
   return (
-    <div className="bg-[#414042] h-[130px] md:h-[80px] w-full fixed bottom-0 text-sm text-white p-4 px-12 flex flex-col md:flex-row justify-between items-center">
+    <div className="cookie-banner bg-[#414042] h-[130px] md:h-[80px] w-full fixed bottom-0 text-sm text-white p-4 px-12 flex flex-col md:flex-row justify-between items-center">
       <p>
         We use tracking cookies to understand how you use the product and help
         us improve it.
