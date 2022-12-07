@@ -3,6 +3,7 @@
 import posthog from "posthog-js";
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
+import * as Sentry from "@sentry/nextjs";
 
 export default function PostHog() {
   const pathname = usePathname();
@@ -12,10 +13,23 @@ export default function PostHog() {
   }, [pathname]);
 
   useEffect(() => {
-    if (typeof window !== undefined)
-      posthog.init("phc_qdnUk6V672Fj9dotrGxne2N1LqyW5Gljftm6HcxvMIm", {
+    if (typeof window !== undefined) {
+      posthog.init(process.env.NEXT_APP_POSTHOG_TOKEN, {
         api_host: "https://eu.posthog.com",
       });
+
+      Sentry.init({
+        dsn: process.env.NEXT_PUBLIC_SENTRY_DSN,
+        tracesSampleRate: 1.0,
+        integrations: [
+          new posthog.SentryIntegration(
+            posthog,
+            "tablane",
+            process.env.NEXT_PUBLIC_SENTRY_PROJECT_ID
+          ),
+        ],
+      });
+    }
   }, []);
 
   return <></>;
