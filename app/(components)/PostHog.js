@@ -14,7 +14,7 @@ export default function PostHog() {
 
   useEffect(() => {
     if (typeof window !== undefined) {
-      posthog.init(process.env.NEXT_APP_POSTHOG_TOKEN, {
+      posthog.init(process.env.NEXT_PUBLIC_POSTHOG_TOKEN, {
         api_host: "https://eu.posthog.com",
       });
 
