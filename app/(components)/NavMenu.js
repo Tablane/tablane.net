@@ -48,7 +48,7 @@ export default function NavMenu() {
             Contact
           </div>
         </Link>
-        <Link href="https://app.tablane.net/shared/board/6378add15219ad70aebe7fc8">
+        <Link href="https://app.tablane.net/shared/board/63906741c22c232ed88df799">
           <div className="h-[48px] text-[16px] flex items-center border-b border-[#EAEAEA] hover:bg-[#FAFAFA] cursor-pointer">
             Roadmap
           </div>
