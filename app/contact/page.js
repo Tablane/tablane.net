@@ -44,7 +44,7 @@ export default function Contact() {
           <span className="text-[32px] font-bold">Email</span>
           <span className="">Message us per Email.</span>
           <Link
-            href="mailto:mailto:contact@tablane.net"
+            href="mailto:contact@tablane.net"
             className="h-12 w-full bg-black rounded text-white flex justify-center items-center"
           >
             <span>Message</span>
