@@ -1,7 +1,7 @@
 import dayjs from "dayjs";
 
 export default function Changelog() {
-  const changes = [
+  const changelog = [
     {
       name: "v0.1.2",
       description:
@@ -106,7 +106,7 @@ export default function Changelog() {
         Changelog
       </p>
       <div className="mt-8">
-        {changes.map((change) => (
+        {changelog.map((change) => (
           <div className="flex flex-col sm:flex-row justify-between mb-12">
             <div className="mr-12 flex-1 pb-8 sm:pb-0 h-fit sm:sticky top-[80px]">
               <p className="text-2xl font-extrabold text-[#24292f]">
@@ -116,7 +116,7 @@ export default function Changelog() {
                 {dayjs(change.date).format("MMMM DD, YYYY")}
               </p>
             </div>
-            <div className="grow-[4] basis-0">
+            <div className="grow-[2] lg:grow-[5] basis-0">
               <p>{change.description}</p>
             </div>
           </div>
