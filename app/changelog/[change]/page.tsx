@@ -1,4 +1,5 @@
 import dayjs from "dayjs";
+import Link from "next/link";
 
 export default function Change() {
   const change = {
@@ -22,9 +23,12 @@ export default function Change() {
 
   return (
     <div className="p-6">
-      <div className="flex mb-[65px] cursor-pointer text-[#666] text-sm hover:text-black">
-        <p>← Back to Changelog</p>
-      </div>
+      <Link
+        className="flex mb-[65px] cursor-pointer text-[#666] text-sm hover:text-black"
+        href="/changelog"
+      >
+        ← Back to Changelog
+      </Link>
       <div className="flex items-center">
         <div className="inline-flex py-1 px-3 whitespace-no-wrap rounded-full bg-[#eaeaea]">
           <p className="text-sm">Changelog</p>
