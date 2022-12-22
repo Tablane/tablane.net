@@ -1,6 +1,6 @@
 import dayjs from "dayjs";
 
-export default function HomePage() {
+export default function Changelog() {
   const changes = [
     {
       name: "v0.1.2",
@@ -107,8 +107,8 @@ export default function HomePage() {
       </p>
       <div className="mt-8">
         {changes.map((change) => (
-          <div className="flex flex-row justify-between mb-12">
-            <div className="mr-12 flex-1 h-fit sticky top-[80px]">
+          <div className="flex flex-col sm:flex-row justify-between mb-12">
+            <div className="mr-12 flex-1 pb-8 sm:pb-0 h-fit sm:sticky top-[80px]">
               <p className="text-2xl font-extrabold text-[#24292f]">
                 {change.name}
               </p>
