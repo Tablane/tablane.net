@@ -120,8 +120,8 @@ export default function Changelog() {
                 {dayjs(change.date).format("MMMM DD, YYYY")}
               </p>
             </div>
-            <div className="grow-[2] lg:grow-[5] basis-0">
-              <p>{change.description}</p>
+            <div className="grow-[2] lg:grow-[5] basis-0 flex justify-center">
+              <p className="lg:w-[75%]">{change.description}</p>
             </div>
           </div>
         ))}
