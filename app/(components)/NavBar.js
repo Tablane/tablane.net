@@ -41,6 +41,11 @@ export default function NavBar() {
               Contact
             </span>
           </Link>
+          <Link href="/changelog">
+            <span className="cursor-pointer text-sm text-[#666] hover:text-black p-2 mx-[6px]">
+              Changelog
+            </span>
+          </Link>
           <Link href="https://app.tablane.net/shared/board/63906741c22c232ed88df799">
             <span className="cursor-pointer text-sm text-[#666] hover:text-black p-2 mx-[6px]">
               Roadmap
