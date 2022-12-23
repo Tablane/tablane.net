@@ -2,6 +2,7 @@ import dayjs from "dayjs";
 import Link from "next/link";
 import changelog from "../changelog.json";
 import { notFound } from "next/navigation";
+import md from "markdown-it";
 
 export default function Change({ params }) {
   const change = changelog["changelog"].find((x) => x.name === params.change);
@@ -30,7 +31,14 @@ export default function Change({ params }) {
         <p className="text-[32px] lg:text-[80px] font-bold leading-none py-12">
           {change.name}
         </p>
-        <div className="text-base lg:text-lg">{change.description}</div>
+        <div className="text-base lg:text-lg prose">
+          <div
+            className="mt-[-20px]"
+            dangerouslySetInnerHTML={{
+              __html: md().render(change.description),
+            }}
+          ></div>
+        </div>
       </div>
     </div>
   );
