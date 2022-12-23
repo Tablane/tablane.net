@@ -26,7 +26,7 @@ export default function Changelog() {
                   {dayjs(change.date).format("MMMM DD, YYYY")}
                 </p>
               </div>
-              <div className="grow-[2] lg:grow-[5] basis-0 flex justify-center">
+              <div className="grow-[2] lg:grow-[5] basis-0 flex">
                 <p className="">{change.description}</p>
               </div>
             </div>
