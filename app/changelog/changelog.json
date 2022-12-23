@@ -1,19 +1,19 @@
 {
   "changelog": [
     {
-      "name": "v0.1.0",
-      "date": 1671736965280,
-      "description": "Comments on Vercel Preview Deployments are now generally available giving you a centralized review workflow for rapid iteration. We have also added full support for GitLab and BitBucket integrations in addition to GitHub. All Pro and Enterprise teams will have the ability to use comments on their Preview Deployments, by default, for free. Check out the documentation to learn more."
+      "name": "v0.1.2",
+      "date": 1671732720000,
+      "description": "**New Features**\n\n- Implement Realtime sync for Comments and Replies\n- Add ability to update Username and Password\n- Improved styling when editing task names\n\n**Bug Fixes**\n\n- Person Column won’t work on shared Boards\n- Reply button also exists on replies\n- Existing Collaborative Editing sessions won’t disconnect after closing task Modal\n- Creating a new Column won’t show until a reload\n- Converted Description and Comment placeholder from ‘Description or type ‘/’ for commands’ to ‘Type your Description’\n- Text Column editable in shared Board\n- Under special occasions, editing a Board name won’t work\n- Status Column Popover, hidden behind Taskgroup title\n- Comment / Reply editing save button is not visible"
     },
     {
       "name": "v0.1.1",
-      "date": 1671736985280,
-      "description": "You can now view (GET) the security feature enablement status for all repositories in your organization using the \"list organization repositories\" endpoint in the REST API for the following security features: GitHub Advanced Security Secret scanning Push protection Previously, you had to retrieve a list of repos and call the \"get a repository\" endpoint for each repository ID to accomplish this task. This change is intended to make it easier to audit enablement status for compliance purposes and for those customers who build external dashboards."
+      "date": 1671362280000,
+      "description": "**New Features**\n- PostHog user identification\n- Removed unusable Like button on comments and replies\n- Users will now keep logged in for 30 days\n- Performance improvements for Task Lists\n\n**Bug Fixes**\n\n- Changing a Status Label to the same Label results in an Activity\n- Renaming a Board won't update until a refresh\n- Task name is not on top of the attributes\n- Cannot type space character in a Status Label\n- Pressing Enter doesn't save Status Label updates"
     },
     {
-      "name": "v0.1.2",
-      "date": 1671736999990,
-      "description": "You can now make Preview Deployments private for free, across all plans. Shareable Links: Share private Preview Deployments with external collaborators without the need to log in. See docs for limits. Vercel Authentication: Team members can log in with their Vercel account to access secure previews. Password Protection is now Advanced Deployment Protection and keeps the same price at $150/mo. Pro and Enterprise customers can add on Advanced Deployment Protection, which includes: Private Production Deployments: Make your production deployment private with the click of a button. Protection Bypass for Automation: Allows you to bypass user authentication by using header secret for automated tooling. Password Protection: Secure preview and production deployments with a password. Enterprise customers will also have access to audit logs allowing them to track who generated a given Sharable Link at what time and from which device. Check out the documentation to learn more.\n\n"
+      "name": "v0.1.0",
+      "date": 1670238300000,
+      "description": "Today we are launching Tablane 0.1.0!\n\nWe are bundling features like real-time sync, collaborative task editing, and instant updates into a unified tool that can handle pretty much all your team's knowledge needs – and this is just the beginning. \uD83D\uDE09\n\n\n"
     }
   ]
 }
