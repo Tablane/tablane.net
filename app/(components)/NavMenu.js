@@ -48,7 +48,7 @@ export default function NavMenu() {
             Contact
           </div>
         </Link>
-        <Link href="/changelog">
+        <Link href="/changelog" onClick={closeNav}>
           <div className="h-[48px] text-[16px] flex items-center border-b border-[#EAEAEA] hover:bg-[#FAFAFA] cursor-pointer">
             Changelog
           </div>
