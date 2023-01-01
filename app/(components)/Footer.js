@@ -23,6 +23,13 @@ export default function Footer() {
           </Link>
 
           <Link
+            href="https://status.tablane.net"
+            className="sm:ml-8 cursor-pointer text-sm text-[#666] hover:text-black h-[42px] border-b border-[#eee] flex items-center sm:border-none"
+          >
+            Status
+          </Link>
+
+          <Link
             href="/contact"
             className="sm:ml-8 cursor-pointer text-sm text-[#666] hover:text-black h-[42px] border-b border-[#eee] flex items-center sm:border-none"
           >
