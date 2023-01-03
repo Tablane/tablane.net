@@ -40,7 +40,7 @@ export default function ProductView() {
           style={{ left: cords[img].x, bottom: cords[img].y }}
         >
           <span className="h-4 w-4 animate-ping absolute inline-flex rounded-full bg-sky-400 opacity-75"></span>
-          <span className="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
+          <span className="relative inline-flex rounded-full h-4 w-4 bg-sky-500"></span>
         </span>
         <Image
           className={`rounded-xl product-shadow border border-[#cbcdd1] ${
