@@ -57,6 +57,7 @@ export default function Features() {
             alt="subtasks"
             width={578}
             height={325}
+            unoptimized
           />
         </div>
       </motion.div>
@@ -75,6 +76,7 @@ export default function Features() {
             alt="subtasks"
             width={200}
             height={325}
+            unoptimized
           />
         </div>
         <div className="sm:ml-[120px] text-left my-[50px]">
@@ -109,6 +111,7 @@ export default function Features() {
             alt="subtasks"
             width={578}
             height={325}
+            unoptimized
           />
         </div>
       </motion.div>
