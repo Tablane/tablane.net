@@ -36,11 +36,11 @@ export default function ProductView() {
         onClick={rotateImg}
       >
         <span
-          className="ease-in-out duration-500 flex h-4 w-4 absolute"
+          className="ease-in-out duration-500 pulse-indicator flex h-3 w-3 absolute bg-[#47E18D] rounded-full"
           style={{ left: cords[img].x, bottom: cords[img].y }}
         >
-          <span className="h-4 w-4 animate-ping absolute inline-flex rounded-full bg-sky-400 opacity-75"></span>
-          <span className="relative inline-flex rounded-full h-4 w-4 bg-sky-500"></span>
+          <span className="absolute inline-flex rounded-full h-3 w-3 bg-[#47E18D] opacity-50"></span>
+          <span className="absolute inline-flex rounded-full h-3 w-3 bg-[#47E18D] opacity-50"></span>
         </span>
         <Image
           className={`rounded-xl product-shadow border border-[#cbcdd1] ${
