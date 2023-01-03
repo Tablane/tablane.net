@@ -1,10 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import step_1 from "../../public/step_1.png";
-import step_2 from "../../public/step_2.png";
-import step_3 from "../../public/step_3.png";
-import step_4 from "../../public/step_4.png";
+import step_1 from "../public/step_1.png";
+import step_2 from "../public/step_2.png";
+import step_3 from "../public/step_3.png";
+import step_4 from "../public/step_4.png";
 import { motion } from "framer-motion";
 import { useState } from "react";
 

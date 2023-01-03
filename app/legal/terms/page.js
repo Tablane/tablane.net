@@ -1,4 +1,4 @@
-import Legal from "../Legal";
+import Legal from "@components/legal/Legal";
 
 export default function Terms() {
   return (
