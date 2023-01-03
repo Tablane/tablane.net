@@ -23,7 +23,7 @@ export default function ProductView() {
   };
 
   return (
-    <div className="py-[8rem] max-w-[100vw] px-[20px] sm:px-[50px] lg:px-[150px] w-full overflow-x-hidden">
+    <div className="py-[8rem] max-w-[100vw] px-[20px] sm:px-[50px] lg:px-[150px] w-full overflow-x-hidden flex justify-center items-center">
       <motion.div
         initial={{
           opacity: 0,
@@ -32,7 +32,7 @@ export default function ProductView() {
         animate={{ opacity: 1, scale: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 1, ease: "easeInOut" }}
-        className="flex justify-center items-center relative cursor-pointer"
+        className="relative cursor-pointer max-w-[1180px]"
         onClick={rotateImg}
       >
         <span
