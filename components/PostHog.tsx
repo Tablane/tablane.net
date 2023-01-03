@@ -25,7 +25,7 @@ export default function PostHog() {
           new posthog.SentryIntegration(
             posthog,
             "tablane",
-            process.env.NEXT_PUBLIC_SENTRY_PROJECT_ID
+            Number(process.env.NEXT_PUBLIC_SENTRY_PROJECT_ID)
           ),
         ],
       });

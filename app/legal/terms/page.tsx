@@ -53,14 +53,14 @@ export default function Terms() {
         <h2 className="font-bold my-5 text-lg">
           Your User Account and Content
         </h2>
-        <ol className="list-decimal mb-2" start="1">
+        <ol className="list-decimal mb-2">
           <li>
             You must provide accurate information when you create your Tablane
             account.
           </li>
         </ol>
 
-        <ol className="list-decimal mb-2" start="2">
+        <ol className="list-decimal mb-2">
           <li>
             You are responsible for safeguarding the password and for all
             activities that occur under your account. You should notify us
@@ -69,10 +69,10 @@ export default function Terms() {
           </li>
         </ol>
 
-        <ol className="list-decimal mb-2" start="3">
+        <ol className="list-decimal mb-2">
           <li>You may never use another user’s account without permission.</li>
         </ol>
-        <ol className="list-decimal mb-2" start="4">
+        <ol className="list-decimal mb-2">
           <li>
             You may not disassemble, decompile, or reverse engineer the Service
             or attempt or assist anyone else to do so, unless such restriction
@@ -80,7 +80,7 @@ export default function Terms() {
           </li>
         </ol>
 
-        <ol className="list-decimal mb-2" start="5">
+        <ol className="list-decimal mb-2">
           <li>
             Your account must be registered by a human. Accounts registered by
             "bots" or other automated methods are not permitted. Additionally,
@@ -88,7 +88,7 @@ export default function Terms() {
           </li>
         </ol>
 
-        <ol className="list-decimal mb-2" start="6">
+        <ol className="list-decimal mb-2">
           <li>
             You may not use the Service for any illegal or unauthorized purpose.
             You agree to comply with all laws, rules, and regulations (for
@@ -98,7 +98,7 @@ export default function Terms() {
           </li>
         </ol>
 
-        <ol className="list-decimal mb-2" start="7">
+        <ol className="list-decimal mb-2">
           <li>
             In the event you have a paid account, fees are non-refundable except
             as required by law or in the event that you cancel your account
@@ -126,7 +126,7 @@ export default function Terms() {
           </li>
         </ol>
 
-        <ol className="list-decimal mb-2" start="8">
+        <ol className="list-decimal mb-2">
           <li>
             For paid accounts, we provide a <b>satisfaction guarantee</b>
             &nbsp;for all services. If you aren't satisfied for <b>any</b>
@@ -138,21 +138,21 @@ export default function Terms() {
         </ol>
 
         <h2 className="font-bold my-5 text-lg">Your Use of Our Service</h2>
-        <ol className="list-decimal mb-2" start="1">
+        <ol className="list-decimal mb-2">
           <li>
             You must not change, modify, adapt, or alter the Service or change,
             modify, or alter another website so as to falsely imply that it is
             associated with the Service or with us.
           </li>
         </ol>
-        <ol className="list-decimal mb-2" start="2">
+        <ol className="list-decimal mb-2">
           <li>
             You must not access our private API by means other than those
             expressly permitted by us.
           </li>
         </ol>
 
-        <ol className="list-decimal mb-2" start="3">
+        <ol className="list-decimal mb-2">
           <li>
             You must not interfere or disrupt the Service or servers or networks
             connected to the Service, including by transmitting any worms,
@@ -163,7 +163,7 @@ export default function Terms() {
           </li>
         </ol>
 
-        <ol className="list-decimal mb-2" start="4">
+        <ol className="list-decimal mb-2">
           <li>
             You must not attempt to restrict another user from using or enjoying
             the Service and you must not encourage or facilitate violations of
@@ -171,7 +171,7 @@ export default function Terms() {
           </li>
         </ol>
 
-        <ol className="list-decimal mb-2" start="5">
+        <ol className="list-decimal mb-2">
           <li>
             As part of the Service, we may provide downloadable client software
             (the “Software”) for your use in connection with the Service. This
@@ -191,7 +191,7 @@ export default function Terms() {
           </li>
         </ol>
 
-        <ol className="list-decimal mb-2" start="6">
+        <ol className="list-decimal mb-2">
           <li>
             Violation of these Terms may, in our sole discretion, result in
             termination of your account. Furthermore, we reserve the right to
@@ -208,7 +208,7 @@ export default function Terms() {
           </li>
         </ol>
 
-        <ol className="list-decimal mb-2" start="7">
+        <ol className="list-decimal mb-2">
           <li>
             If you elect to utilize any third party application in connection
             with your use of the Service, by doing so you are consenting to your
@@ -220,7 +220,7 @@ export default function Terms() {
         </ol>
 
         <h2 className="font-bold my-5 text-lg">General Conditions</h2>
-        <ol className="list-decimal mb-2" start="1">
+        <ol className="list-decimal mb-2">
           <li>
             We may suspend or terminate your account(s) or cease providing you
             with all or part of our Services at any time without liability to
@@ -239,14 +239,14 @@ export default function Terms() {
           </li>
         </ol>
 
-        <ol className="list-decimal mb-2" start="2">
+        <ol className="list-decimal mb-2">
           <li>
             Upon termination, all licenses and other rights granted to you in
             these Terms will immediately cease.
           </li>
         </ol>
 
-        <ol className="list-decimal mb-2" start="3">
+        <ol className="list-decimal mb-2">
           <li>
             We reserve the right, in our sole discretion, to change these Terms
             and/or our Services offered from time to time (“Updated Terms”).
@@ -265,14 +265,14 @@ export default function Terms() {
           </li>
         </ol>
 
-        <ol className="list-decimal mb-2" start="4">
+        <ol className="list-decimal mb-2">
           <li>
             We reserve the right to refuse access to the Service to anyone for
             any reason at any time.
           </li>
         </ol>
 
-        <ol className="list-decimal mb-2" start="5">
+        <ol className="list-decimal mb-2">
           <li>
             You hereby authorize us, directly or through third parties, to make
             any inquiries we consider necessary to validate your identity and/or
@@ -287,7 +287,7 @@ export default function Terms() {
           </li>
         </ol>
 
-        <ol className="list-decimal mb-2" start="6">
+        <ol className="list-decimal mb-2">
           <li>
             We may, but have no obligation to, remove, edit, block, and/or
             monitor Content or accounts containing Content that we determine in
@@ -295,14 +295,14 @@ export default function Terms() {
           </li>
         </ol>
 
-        <ol className="list-decimal mb-2" start="7">
+        <ol className="list-decimal mb-2">
           <li>
             You agree that you are responsible for all data charges you incur
             through use of the Service.
           </li>
         </ol>
 
-        <ol className="list-decimal mb-2" start="8">
+        <ol className="list-decimal mb-2">
           <li>
             By creating an Account, you agree that the Services may send you
             informational and promotional text (SMS) messages as part of the
@@ -314,7 +314,7 @@ export default function Terms() {
           </li>
         </ol>
 
-        <ol className="list-decimal mb-2" start="9">
+        <ol className="list-decimal mb-2">
           <li>
             We prohibit crawling, scraping, caching or otherwise accessing any
             content on the Service via automated means (except as may be the
@@ -323,7 +323,7 @@ export default function Terms() {
           </li>
         </ol>
 
-        <ol className="list-decimal mb-2" start="10">
+        <ol className="list-decimal mb-2">
           <li>
             In some cases, it is necessary for our employees, contractors, or
             agents to access your account and content in order to diagnose a
@@ -336,7 +336,7 @@ export default function Terms() {
           </li>
         </ol>
 
-        <ol className="list-decimal mb-2" start="11">
+        <ol className="list-decimal mb-2">
           <li>
             In connection with providing you the Service, we may transfer, store
             and process your Content in the U.S. or in any other country in
@@ -347,7 +347,7 @@ export default function Terms() {
         </ol>
 
         <h2 className="font-bold my-5 text-lg">Rights</h2>
-        <ol className="list-decimal mb-2" start="1">
+        <ol className="list-decimal mb-2">
           <li>
             <b>Ownership.</b> For purposes of these Terms: (i) "Content" means
             any data, text, files, information, usernames, images, graphics,
@@ -360,7 +360,7 @@ export default function Terms() {
           </li>
         </ol>
 
-        <ul start="1">
+        <ul>
           <li>
             a. <b>Content Ownership of the Content We Make</b>
             <p className="mb-5">
@@ -389,7 +389,7 @@ export default function Terms() {
           </li>
         </ul>
 
-        <ul start="2">
+        <ul>
           <li>
             b. <b>Rights in User Content</b>
             <p className="mb-5">
@@ -413,7 +413,7 @@ export default function Terms() {
           </li>
         </ul>
 
-        <ul start="3">
+        <ul>
           <li>
             c. <b>Alerts and Notification</b>
             <p className="mb-5">
@@ -428,7 +428,7 @@ export default function Terms() {
           </li>
         </ul>
 
-        <ol className="list-decimal mb-2" start="2">
+        <ol className="list-decimal mb-2">
           <li>
             Some of the Service may be supported by advertising revenue and may
             display advertisements and promotions, and you hereby agree that we
@@ -439,14 +439,14 @@ export default function Terms() {
           </li>
         </ol>
 
-        <ol className="list-decimal mb-2" start="3">
+        <ol className="list-decimal mb-2">
           <li>
             You acknowledge that we may not always identify paid services,
             sponsored content, or commercial communications as such.
           </li>
         </ol>
 
-        <ol className="list-decimal mb-2" start="4">
+        <ol className="list-decimal mb-2">
           <li>
             You represent and warrant that: (i) you own the Content posted by
             you on or through the Service or otherwise have the right to grant
@@ -462,7 +462,7 @@ export default function Terms() {
           </li>
         </ol>
 
-        <ol className="list-decimal mb-2" start="5">
+        <ol className="list-decimal mb-2">
           <li>
             The Tablane name and logo are our trademarks, and may not be copied,
             imitated or used, in whole or in part, without our prior written
@@ -473,7 +473,7 @@ export default function Terms() {
           </li>
         </ol>
 
-        <ol className="list-decimal mb-2" start="6">
+        <ol className="list-decimal mb-2">
           <li>
             Although it is our intention for the Service to be available as much
             as possible, there will be occasions when the Service may be
@@ -492,7 +492,7 @@ export default function Terms() {
           </li>
         </ol>
 
-        <ol className="list-decimal mb-2" start="7">
+        <ol className="list-decimal mb-2">
           <li>
             You agree that we are not responsible for, and do not endorse,
             Content posted within the Service. We do not have any obligation to
@@ -502,7 +502,7 @@ export default function Terms() {
           </li>
         </ol>
 
-        <ol className="list-decimal mb-2" start="8">
+        <ol className="list-decimal mb-2">
           <li>
             Except as otherwise described in the Service's Privacy Policy, as
             between you and us, any Content will be non-confidential and
@@ -518,7 +518,7 @@ export default function Terms() {
           </li>
         </ol>
 
-        <ol className="list-decimal mb-2" start="9">
+        <ol className="list-decimal mb-2">
           <li>
             Subject to your agreement and continuing compliance with these Terms
             and any of our other relevant policies, we grant you a
@@ -530,7 +530,7 @@ export default function Terms() {
               This license is revocable at any time. This license is subject to
               these Terms and does not include:
             </p>
-            <ul start="4">
+            <ul>
               <li>
                 d. The distribution, public performance, or public display of
                 Our Content;
@@ -566,7 +566,7 @@ export default function Terms() {
           </li>
         </ol>
 
-        <ol className="list-decimal mb-2" start="10">
+        <ol className="list-decimal mb-2">
           <li>
             It is our policy not to accept or consider content, information,
             ideas, suggestions, or other materials other than those we have
