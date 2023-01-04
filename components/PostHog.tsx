@@ -4,6 +4,7 @@ import posthog from "posthog-js";
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
 import * as Sentry from "@sentry/nextjs";
+import { Integration } from "@sentry/types";
 
 export default function PostHog() {
   const pathname = usePathname();
@@ -26,7 +27,7 @@ export default function PostHog() {
             posthog,
             "tablane",
             Number(process.env.NEXT_PUBLIC_SENTRY_PROJECT_ID)
-          ),
+          ) as Integration,
         ],
       });
     }
