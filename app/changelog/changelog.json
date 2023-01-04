@@ -1,6 +1,11 @@
 {
   "changelog": [
     {
+      "name": "v0.1.3",
+      "date": 1671732720000,
+      "description": "**New Features**\n- Assigned tasks will now be shown on the \"Home\" page\n- The task columns will now be visible inside the Task Modal\n- People in the Person Columns are now animated inside when hovered\n\n**Bug Fixes**\n- Users were logged out after 24 hours\n- Prevent unnecessary name change logs\n- Person Column Popover will now only be loaded when user has permission\n- Non functional Everything view button is now hidden\n- Changes to the Task Name or Text Column value where not saved when closing the Task Modal"
+    },
+    {
       "name": "v0.1.2",
       "date": 1671732720000,
       "description": "**New Features**\n\n- Implement Realtime sync for Comments and Replies\n- Add ability to update Username and Password\n- Improved styling when editing task names\n\n**Bug Fixes**\n\n- Person Column won’t work on shared Boards\n- Reply button also exists on replies\n- Existing Collaborative Editing sessions won’t disconnect after closing task Modal\n- Creating a new Column won’t show until a reload\n- Converted Description and Comment placeholder from ‘Description or type ‘/’ for commands’ to ‘Type your Description’\n- Text Column editable in shared Board\n- Under special occasions, editing a Board name won’t work\n- Status Column Popover, hidden behind Taskgroup title\n- Comment / Reply editing save button is not visible"
