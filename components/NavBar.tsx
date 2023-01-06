@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import NavMenu from "./NavMenu";
 import { useEffect, useState } from "react";
+import logo from "../public/android-chrome-192x192.png";
 
 export default function NavBar() {
   const [attop, setAtTop] = useState(true);
@@ -23,7 +24,7 @@ export default function NavBar() {
         <Link href="/">
           <Image
             className="p-2 cursor-pointer"
-            src="/android-chrome-192x192.png"
+            src={logo}
             alt="logo"
             width={42}
             height={42}

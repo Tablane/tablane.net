@@ -2,6 +2,9 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import comment_threads from "../public/features/comment_threads.png";
+import subtasks from "../public/features/subtasks.png";
+import task_fields from "../public/features/task_fields.png";
 
 const container = {
   hidden: { opacity: 0 },
@@ -53,7 +56,7 @@ export default function Features() {
         <div>
           <Image
             className="rounded-xl image-shadow border border-[#cbcdd1]"
-            src="/features/subtasks.png"
+            src={subtasks}
             alt="subtasks"
             width={578}
             height={325}
@@ -72,7 +75,7 @@ export default function Features() {
         <div>
           <Image
             className="rounded-xl image-shadow border border-[#cbcdd1]"
-            src="/features/task_fields.png"
+            src={task_fields}
             alt="subtasks"
             width={200}
             height={325}
@@ -107,7 +110,7 @@ export default function Features() {
         <div>
           <Image
             className="rounded-xl image-shadow border border-[#cbcdd1]"
-            src="/features/comment_threads.png"
+            src={comment_threads}
             alt="subtasks"
             width={578}
             height={325}
