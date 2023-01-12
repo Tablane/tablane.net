@@ -1,6 +1,16 @@
 {
   "changelog": [
     {
+      "name": "v0.1.5",
+      "date": 1673553090000,
+      "description": "**New Features**\n- Status Column label text will now be white on darker colors\n\n**Bug Fixes**\n- Certain emails weren't allowed to signup (e.g. contact+me@tablane.net)\n- Several inputs weren't able to confirm using Enter\n- Status Column Popover was hidden behind the taskgroup title\n- It wasn't possible to back out of the login page after trying to login from the landing page\n- Editing the Space name wasn't possible under certain circumstances"
+    },
+    {
+      "name": "v0.1.4",
+      "date": 1673024439000,
+      "description": "**New Features**\n- Task Drag and Dropping UX has been improved\n\n**Bug Fixes**\n- Deleting a subtask won't update to other devices\n- Home page will only show scrollbars when necessary\n- Deleting a task could result in additional tasks being deleted\n- Long Space or Board names will not fully show (hovering over the name will show the entire name)"
+    },
+    {
       "name": "v0.1.3",
       "date": 1672831327000,
       "description": "**New Features**\n- Assigned tasks will now be shown on the \"Home\" page\n- The task columns will now be visible inside the Task Modal\n- People in the Person Columns are now animated inside when hovered\n\n**Bug Fixes**\n- Users were logged out after 24 hours\n- Prevent unnecessary name change logs\n- Person Column Popover will now only be loaded when user has permission\n- Non functional Everything view button is now hidden\n- Changes to the Task Name or Text Column value where not saved when closing the Task Modal"
