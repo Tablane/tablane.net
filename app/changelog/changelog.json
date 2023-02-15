@@ -1,6 +1,11 @@
 {
   "changelog": [
     {
+      "name": "v0.1.6",
+      "date": 1676480368000,
+      "description": "**New Features**\n- Added filtering feature to filter tasks\n- Task modal is now mobile-friendly\n- Added Ability to create multiple tasks by pasting a text with line breaks\n- Switched to soketi.app for real-time communication\n- Added Twitter and Status page links on the loading page\n- Board settings will now have a blue background when in use\n\n**Bug Fixes**\n- Fixed an issue with unnecessary spaces when creating new columns\n- Fixed broken redirect to last used board when changing accounts\n- Fixed an issue where tasks were not full height\n- Fixed an issue where the Description Editor wasn't refreshing the JWT token on failed authentications attempts\n- Fixed an issue where the description editor CTRL + Z didn't work\n- Fixed an issue where the time string was displayed with an additional colon"
+    },
+    {
       "name": "v0.1.5",
       "date": 1673553090000,
       "description": "**New Features**\n- Status Column label text will now be white on darker colors\n\n**Bug Fixes**\n- Certain emails weren't allowed to signup (e.g. contact+me@tablane.net)\n- Several inputs weren't able to confirm using Enter\n- Status Column Popover was hidden behind the taskgroup title\n- It wasn't possible to back out of the login page after trying to login from the landing page\n- Editing the Space name wasn't possible under certain circumstances"
