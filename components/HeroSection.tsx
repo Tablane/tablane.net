@@ -46,7 +46,7 @@ export default function HeroSection() {
         variants={container}
         initial="hidden"
         animate="show"
-        className="flex flex-col items-center max-w-[80%]"
+        className="flex flex-col items-center max-w-[80%] lg:max-w-[1200px]"
       >
         <motion.span
           variants={item}
